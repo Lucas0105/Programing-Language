@@ -31,3 +31,16 @@ tsc --help
 
 - Prettier - Code formatter  
   FIle - Preferences - Settings - format on save check
+
+## Compiler 사용 명령어
+
+```
+// fileName.js 파일 생성
+tsc [fileName.ts]
+
+// js 파일 실행
+node fileName.js
+
+// 두 명령어를 합친 명령어
+ts-node fileName.ts
+```

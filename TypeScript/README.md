@@ -12,9 +12,8 @@ TypeScript = JavaScript + TypeSystem 으로 자바스크립트의 모든 기능�
 ## 실행 과정
 
 1. TypeScript Code 작성(JavaScript + Type Annotation)
-2. TypeScript Compiler
-3. Plain Old JavaScript
-4. Browser 실행
+2. TypeScript Compiler에 의해 Plain Old JavaScript로 변환환
+3. JavaScript Browser에서 실행
 
 ## 환경 설정
 

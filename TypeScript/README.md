@@ -82,7 +82,7 @@ Type Inference를 통해 typeScript가 자동으로 타입을 선언해주는데
 한 변수에 타입이 여러개 가능한 경우
 ```
 
-## 함수 Type Annotation 과과 Type Inference
+## 함수 Type Annotation 과 Type Inference
 
 함수의 경우 return 값을 대상으로 함  
 **하지만 항상 return 값에 대해 사용자가 Type Annotation을 명시할 것을 권장 **  

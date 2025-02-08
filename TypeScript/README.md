@@ -44,3 +44,13 @@ node fileName.js
 // 두 명령어를 합친 명령어
 ts-node fileName.ts
 ```
+
+## Type 설정
+
+```
+interface [Name]{
+  id: number;
+  title: string;
+  ...
+}
+```

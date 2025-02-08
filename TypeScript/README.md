@@ -81,3 +81,9 @@ Type Inference를 통해 typeScript가 자동으로 타입을 선언해주는데
  3. 선언과 초기화를 한 줄에 했지만 타입을 추론하기 어려운 경우 (코너 케이스)
 한 변수에 타입이 여러개 가능한 경우
 ```
+
+## 함수 Type Annotation 과과 Type Inference
+
+함수의 경우 return 값을 대상으로 함  
+**하지만 항상 return 값에 대해 사용자가 Type Annotation을 명시할 것을 권장 **  
+그 이유는 함수에 대한 return 값을 작성하지 않거나 잘 못작성한 경우에 대한 오류를 찾기 위함

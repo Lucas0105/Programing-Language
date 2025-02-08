@@ -54,3 +54,30 @@ interface [Name]{
   ...
 }
 ```
+
+## Type Annotation vs Type Inference (타입 추론)
+
+- 공통점: 변수의 타입을 지정해주는 것
+
+- Type Inference: typescript가 타입을 지정해주는 것 (권장)
+
+```
+const color = 'red' => type is red
+선언과 초기화가 같은 줄에서 진행될 시 변수의 타입을 typesciprt가 지정
+```
+
+- Type Annotation: 사용자가 typescript 한테 해당 변수가 어떤 타입인지 명시적으로 지정해주는 것
+
+```
+Type Inference를 통해 typeScript가 자동으로 타입을 선언해주는데 Type Annotation이 필요한가?
+언제 사용되는가?
+
+3가지 경우
+1. any 타입으로 반환 되는 경우 ex: JSON.parse() => 타입을 TypeScript가 추론할 수 없는 경우
+
+2. 지연된 초기화, 선언한 다음에 다른 줄에서 초기화하는 경우
+ Any 타입은 없는 것이 좋음 타입을 통해 오류를 파악할 수 없기 때문
+
+ 3. 선언과 초기화를 한 줄에 했지만 타입을 추론하기 어려운 경우 (코너 케이스)
+한 변수에 타입이 여러개 가능한 경우
+```
